@@ -1,0 +1,247 @@
+.recommendNav{
+    margin-top: .88rem;
+    font-size: .28rem;
+    height: .7rem;
+    line-height: .6rem;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    justify-content: space-around;
+    position: relative;
+}
+.priceOrder{
+    display: flex;
+    align-items: center;
+}
+.priceOrder div{
+    display: flex;
+    flex-direction: column;
+    margin-left: .1rem;
+}
+.curColor{
+    color: #ff0f0f;
+}
+.typeList{
+    padding-top: .3rem;
+    width: 100%;
+    left: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 31%;
+    font-size: .24rem;
+}
+.typeWrap{
+    position: fixed;
+    top: 1.56rem;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    z-index: 200;
+    height: 100%;
+}
+.typeList>div{
+    text-align: center;
+    width: 25%;
+}
+.typeList>div>img{
+    display: block;
+    margin: 0 auto;
+}
+.typeList>div>p{
+  margin-bottom: .3rem;
+}
+.ceng{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+.classifyPageContainer{
+	width:100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1rem;
+}
+/*头部*/
+.classifyHeadIcon{
+	margin-right:0.5rem;	
+}
+.classifyHeadCar{
+	position:relative;
+}
+/*购物车是否有商品提示*/
+.hasGoodsInCart {
+	display: inline-block;
+	width:0.36rem;
+	height: 0.24rem;
+	border-radius: 0.4rem/0.4rem;
+	background-color:#ff3636;
+	position:absolute;
+	top:-0.15rem;
+	left:-0.2rem;
+	font-size:0.22rem;
+	color:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.noGoodsInCart {
+	display: none;
+}
+/*分类列表页-start-*/
+.classifyListContainer{
+	width:100%;
+	padding-top: 0.88rem;
+	position: relative;
+}
+/*二级导航*/
+.classifyListType{
+    margin-top: .88rem;
+	width:100%;
+	height:0.88rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f9f9f9;
+}
+.classifyListType p{
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+}
+.classifyListType>div{
+	display: flex;
+}
+/*点击后变换颜色*/
+.chooseThisType{
+	color:#ff0f0f;
+}
+/*价格上/下*/
+.goodsPrice{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 0.15rem;
+}
+/*无色上图标*/
+.priceUp1{
+	display: inline-block;
+	width:0.12rem;
+	height: 0.08rem;
+	background-image: url("../../assets/homeUp.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*有色上图标*/
+.priceUp2{
+	display: inline-block;
+	width:0.12rem;
+	height: 0.08rem;
+	background-image: url("../../assets/homeDown.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);           
+	-webkit-transform: rotate(180deg);     
+	-o-transform: rotate(180deg);            
+	-moz-transform: rotate(180deg);
+}
+/*无色下图标*/
+.priceDown1{
+	display: inline-block;
+	width:0.12rem;
+	height: 0.08rem;
+	background-image: url("../../assets/homeUp.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);           
+	-webkit-transform: rotate(180deg);     
+	-o-transform: rotate(180deg);             
+	-moz-transform: rotate(180deg);
+}
+/*有色下图标*/
+.priceDown2{
+	display: inline-block;
+	width:0.12rem;
+	height: 0.08rem;
+	background-image: url("../../assets/homeDown.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*筛选商品-start-*/
+.filtContainer{
+	width:90%;
+	position: absolute;
+	top:0;
+	right:0;
+	z-index: 200;
+	background-color: #fff;
+	display: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.98rem;
+	overflow: scroll;
+}
+.filtMain{
+	width:90%;
+	margin:auto;	
+	margin-top: 0.15rem;
+}
+.filtMain p{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+}
+.filtType{
+	width:100%;
+	margin-top: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.filtType span{
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	padding:0.15rem 0.25rem;
+	background-color: #f5f5f5;
+	border-radius: 0.1rem/0.1rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.chooseFilt{
+	color:#fff;
+	background-color: #ff6666!important;
+}
+.filtContainer footer{
+	width:90%;
+	height:0.98rem;
+	position: fixed;
+	bottom:0rem;
+	right:0rem;
+	display: flex;
+	font-size: 0.28rem;
+	z-index: 200;
+	background-color: #fff;
+}
+.filtFootLeft{
+	width:50%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filtFootRight{
+	width:50%;
+	height:100%;
+	background-color: #ff0f0f;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filtMain:nth-last-child(2){
+	padding-bottom: 1.8rem;
+}
+/*筛选商品-end-*/
+/*分类列表页-end-*/

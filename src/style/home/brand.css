@@ -1,0 +1,33 @@
+.brandCard{
+    background: #fff;
+    width: 100%;
+    height: 4.2rem;
+    margin-bottom: .36rem;
+}
+.brandbox{
+    padding: .36rem;
+    margin-top: .88rem;
+    overflow: hidden;
+}
+.brandBackg{
+    height: 3.4rem;
+    display: block;
+    width: 100%;
+}
+.brandText{
+    font-size: .28rem;
+    line-height: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brandText :nth-child(1){
+    margin-left: .36rem;
+}
+.brandMsg{
+    color: #959595;
+}
+.brandMsg>div{
+    display: inline-block;
+    margin: 0 .16rem;
+}

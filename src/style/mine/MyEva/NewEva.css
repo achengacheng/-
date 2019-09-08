@@ -1,0 +1,141 @@
+.ReturnReson{
+    margin-top: .88rem;
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+    display: flex;
+    padding: 0 .36rem;
+    font-size: .28rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.ReturnChoice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ReturnChoice>p{
+    margin-right: .2rem;
+}
+.EvaPageWrap{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    height: 100%;
+}
+.defaultIcon{
+    width: .64rem;
+    height: .33rem;
+    background: url('../../../assets/Mine-off.png') no-repeat;
+    background-size: 100% 100%;
+}
+.defaultIcon2{
+    width: .64rem;
+    height: .33rem;
+    background: url('../../../assets/Mine-on.png') no-repeat;
+    background-size: 100% 100%;
+}
+.ReturnText{
+    font-size: .24rem;
+    background: #fff;
+    padding: 0 .36rem;
+    padding-bottom: .15rem;
+}
+.ReturnText>p{
+    line-height: .7rem;
+    height: .7rem;
+}
+.ReturnText textarea{
+    -webkit-text-size-adjust: none;
+    font-family:'微软雅黑';
+    font-size: .24rem;
+    border: none;
+    line-height: .34rem;
+    height: 2.3rem;
+    color: #313131;
+    outline:none; 
+    resize:none;
+}
+.ReturnText textarea::-webkit-input-placeholder{
+    font-size: .26rem;
+    color:#cacaca;
+}
+.ReturnText textarea::-webkit-input-placeholder{
+    font-size: .26rem;
+    color:#cacaca;
+}
+.ReturnText textarea:focus:-webkit-input-placeholder{
+    color: transparent;
+    }
+.ReturnText textarea:focus:-moz-input-placeholder{
+    color: transparent;
+    }
+.ReturnImgBox{
+    background: #fff;
+    padding: 0 .36rem;
+    margin-bottom: .2rem;
+    padding-top: .15rem;
+    padding-bottom: .5rem;
+}
+.ReturnText span{
+    color: #505050;
+    align-self: flex-end;
+    margin-bottom: .15rem;
+}
+.ReturnText>div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c8c8c8;
+    padding: .1rem;
+}
+.ReturnPerson{
+    overflow: hidden;
+    padding: 0 .36rem;
+    font-size: .24rem;
+}
+.ReturnPersonHead{
+    font-size: .28rem;
+    line-height: .7rem;
+    height: .7rem;
+}
+.ReturnPersonInput{
+    line-height: .7rem;
+    height: .7rem;
+    border: 1px solid #eee;
+}
+.ReturnPersonInput input{
+    font-size: .24rem;
+}
+.ReturnImg{
+    font-size: .28rem;
+    line-height: .7rem;
+    height: .7rem;
+}
+.ReturnBtn{
+    background: #ff5e57;
+    line-height: 1rem;
+    height: 1rem;
+    color: #fff;
+    font-size: .28rem;
+    text-align: center;
+    border-radius: .07rem;
+    margin-top: .8rem;
+    margin-bottom: .4rem;
+}
+.ReturnQq{
+    font-size: .28rem;
+    background: #fff;
+    line-height: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .36rem;
+}
+.ReturnQq>input{
+    font-size: .26rem;
+}
+.ReturnChoice img{
+    margin: 0 .12rem;
+    width: .26rem;
+    height: .26rem;
+}

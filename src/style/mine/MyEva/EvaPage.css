@@ -1,0 +1,162 @@
+
+.NewEvaHead{
+    margin-top: .88rem;
+    font-size: .28rem;
+    height: .7rem;
+    line-height: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 0 1.7rem;
+}
+.NewEvaHeadCopy{
+    font-size: .28rem;
+    height: .7rem;
+    line-height: .7rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: .88rem;
+    justify-content: space-around;
+    background: #f9f9f9;
+    width: 100%;
+    z-index: 99;
+    transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.NewEvaHeadCopy p{
+    width: 2rem;
+}
+.NewEvaHeadCopy p:nth-child(1){
+    text-align: right;
+}
+.NewEvaHeadCopyc{
+    font-size: .28rem;
+    height: .7rem;
+    line-height: .7rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    justify-content: space-around;
+    background: #f9f9f9;
+    width: 100%;
+    z-index: 99;
+    transition: all linear 0.3s;
+}
+.NewEvaHeadCopyc p{
+    width: 2rem;
+}
+.NewEvaHeadCopyc p:nth-child(1){
+    text-align: right;
+}
+.NewEvaHead span{
+    font-size: .22rem;
+    color: #999;
+}
+.NewEvaWrap{
+    font-size: .24rem;
+    margin-top: 1.75rem;
+ }
+ .NewEvaLi{
+    padding: .35rem .36rem .35rem .36rem;
+    border-bottom:#f5f5f5;
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+ }
+ .addBg{
+     margin-top: .23rem;
+     background: #f9f9f9;
+ }
+ .NewEvaLi img{
+    width: 1.59rem;
+    height: 1.59rem;
+ }
+ .EvaPagIconName{
+     font-size: .3rem;
+ }
+ .NewEvaContent{
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin-left: .22rem;
+    flex-direction: column;
+ }
+ .NewEvaTitle{
+     font-size: .26rem;
+ }
+ .NewEvaSp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .NewEvaBtn{
+     padding: .1rem .15rem;
+     background: #ff5e57;
+     color: #fff;
+     border-radius: .05rem;
+     font-size: .24rem;
+ }
+ .NewEvaPcolor{
+     color: #666;
+ }
+ .NewEvaPrice{
+     color: #ff5e57;
+ }
+ .EvaPageLi{
+     padding: .25rem .36rem;
+     background: #fff;
+     border-bottom: .2rem solid #f5f5f5;
+ }
+ .EvaPageHead{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .EvaPageHead img{
+     border-radius: 50%;
+     margin-right: .2rem;
+     width: .76rem;
+     height: .76rem;
+ }
+ .EvaPageAddr{
+     color: #666;
+     font-size: .24rem;
+ }
+ .EvaPageImgBox{
+     margin: .25rem 0;
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+ }
+ .EvaPageImgBox>img{
+     width: 32%;
+     height: 2.16rem;
+     display: inline-block;
+ }
+ .EvaPageImgBox>:nth-child(2){
+    margin: 0rem 2% 0.15rem 2%;
+ }
+ .EvaPageText{
+     color: #666;
+     line-height: .4rem;
+     font-size: .26rem;
+ }
+ .EvaPageFoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .2rem;
+    color: #999;
+ }
+ .EvaPageFootBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .NewEvaCur{
+     color: #ff5e57;
+ }

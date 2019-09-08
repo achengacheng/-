@@ -1,0 +1,25 @@
+.helpsWrap{
+    margin-top: .88rem;
+    overflow: hidden;
+}
+.helpsCard{
+    font-size: .24rem;
+    color: #707070;
+    margin: .36rem;
+    padding: .35rem;
+    background: #fff;
+}
+.helpsHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .25rem;
+}
+.helpsHead :nth-child(1){
+    color: #000;
+    font-weight: bold;
+}
+.helpsContent>p{
+    line-height: .32rem;
+    margin-bottom: .05rem;
+}

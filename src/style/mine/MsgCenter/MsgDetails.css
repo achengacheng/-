@@ -1,0 +1,27 @@
+.MsgDetailsWrap{
+    margin-top: .88rem;
+    font-size: .28rem;
+    background: #fff;
+    padding: 0 .36rem;
+    height: 93.4%;
+    padding-bottom: 2rem;
+}
+/* body,html{
+    height: 96.5%;
+} */
+.MsgDetailsHead{
+    padding-top: .8rem;
+    padding-bottom: .2rem;
+    line-height: .4rem;
+    font-weight: bold;
+}
+.MsgDetailsTime{
+    color: #999;
+    margin-bottom: .6rem;
+}
+.MsgDetailsContent{
+    line-height: .42rem;
+}
+.MsgDetailsHeight{
+    height: 100%;
+}

@@ -1,0 +1,323 @@
+.myPageContainer{
+	width: 100%;
+	padding-bottom: 1.1rem;
+	position: relative;
+}
+/*--头部背景图--*/
+.myPageBg{
+	width: 100%;
+	height:auto;
+	position: absolute;
+}
+.myPageBg>img{
+	width: 100%;
+}
+/*--固定头部 start--*/
+.myPageHeader{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top: 0;
+	left:0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:transparent;
+	font-size: 0.34rem;
+	z-index: 199;
+}
+.typeface{
+	color:black;
+}
+.scollColor{
+	background-color: #f9f9f9;
+}
+/*消息图标*/
+.myPageMesIcon1{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageMesIcon1.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-left: 0.3rem;
+}
+.myPageMesIcon2{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageMesIcon2.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-left: 0.3rem;
+}
+/*是否有消息-小圆点*/
+.myPageNoMes {
+	display: inline-block;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	float:right;
+	margin-right: 0.03rem;
+}
+.myPageHasMes {
+	display: inline-block;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: red;
+	float:right;
+	margin-right: 0.03rem;
+}
+/*设置图标*/
+.myPageSetIcon1{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageSetIcon1.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+.myPageSetIcon2{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageSetIcon2.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+/*--固定头部 end--*/
+/*--个人主要信息 start--*/
+.myPagePersonMes{
+	width: 100%;
+	height: 0.76rem;
+	padding:1.18rem 0rem 0.15rem 0rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+/*头像*/
+.myPageUserHead{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	margin-left: 0.3rem;
+	display: flex;
+	/* background-image: url('../../assets/myPageDefaultHead2.png');
+	background-repeat: no-repeat;
+	background-size:100%; */
+	overflow: hidden;
+}
+.myPageUserHead>img{
+	width: 100%;
+  border-radius: 50%;
+}
+/*信息*/
+.myPageUserMes{
+	margin-left: 0.15rem;
+}
+.myPageUserMes>p{
+	font-size: 0.24rem;
+	color:#fff;
+	line-height: 0.35rem;
+	letter-spacing: 0.01rem;
+}
+/*艾家信息*/
+.myPagePersonMes aside{
+	background-color: #fff;
+	padding:0.15rem 0.2rem 0.15rem 0.3rem;
+	border-top-left-radius: 0.27rem;
+	border-bottom-left-radius: 0.27rem;
+	position: absolute;
+	right:0rem;
+	top:1.28rem;
+}
+.myPagePersonMes aside p{
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color:#ff3f3f;
+	letter-spacing: 0.02rem;
+}
+/*--主要信息 end--*/
+/*--消费收益信息 start--*/
+.consumeEarningsMain{
+	width: 90.6%;
+	height: 1.6rem;
+	background-color: #fff;
+	position: absolute;
+	left:4.7%;
+	top:2.5rem;
+	border-radius: 0.1rem/0.1rem;
+	box-shadow: 0rem 0.1rem 0.15rem rgba(199,199,199,.5);
+	display: flex;
+	justify-content: center;
+}
+.consumeEarningsMain div{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.consumeEarningsMain div span{
+	width: 100%;
+	text-align: center;
+	font-size: 0.38rem;
+	font-weight: bold;
+	margin-bottom: 0.15rem;
+}
+.consumeEarningsMain div p{
+	font-size: 0.24rem;
+	font-weight: lighter;
+}
+/*--消费收益信息 end--*/
+/*--商品信息 start--*/
+.GoodsMesMain{
+	width: 100%;
+	height: 3.1rem;
+	background-color: #fff;
+	margin-top: 2.3rem;
+}
+
+.GoodsMesContainer{
+	width: 90.6%;
+	height: 100%;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.GoodsMesContainer li{
+	width: 20%;
+	height: 49.8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.GoodsMesContainer span{
+	width: 100%;
+	height:0.02rem;
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 50%;
+	left:0rem;
+}
+.GoodsMesContainer li div{
+	width: 0.5rem;
+	height:0.36rem;
+	display: flex;
+	margin-bottom: 0.2rem;
+	position: relative;
+}
+.GoodsMesContainer li div>img{
+	width: 100%;
+	height:100%;
+}
+.GoodsMesContainer li>p{
+	font-size: 0.24rem;
+	font-weight: lighter;
+}
+/*--商品信息 end--*/
+/*--其他信息 start--*/
+.myPageOtherMes{
+	width: 100%;
+	margin-top: 0.2rem;
+	background-color: #fff;
+}
+.myPageOtherMes>div:nth-child(2)>span,.myPageOtherMes>div:nth-child(6)>span,.myPageOtherMes>div:nth-child(11)>span{
+	background: rgb(245,245,245)!important;
+}
+.myPageOtherMes>p{
+	width: 100%;
+	height:0.2rem;
+	background-color: #f5f5f5;
+}
+.myPageSingeMsg{
+	width:90.6%;
+	height: 1rem;
+	padding:0rem 4.7%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.myPageSingeMsg>span{
+	width:100%;
+	height:0.02rem;
+	position: absolute;
+	bottom:0rem;
+	left:0rem;
+	background: linear-gradient(90deg,rgb(255,255,255)0%,rgb(255,255,255)4.7%,rgb(245,245,245)5%,rgb(245,245,245)91%,rgb(255,255,255)100%)
+}
+.myPageSingeMsg>div{
+	height:100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.myPageSingeMsg>div>img{
+	width:0.36rem;
+	height: 0.36rem;
+	margin-right: 0.15rem;
+}
+.myPageSingeMsg>div>p{
+	font-size: 0.28rem;
+}
+/*左展开箭头*/
+.myPageLeftArr {
+	display: inline-block;
+	width: 0.12rem;
+	height: 0.22rem;
+	background-image: url("../../assets/myPageLeftArr.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.myPageSingeMsg>div>span{
+	font-size: 0.26rem;
+	color:#ccc;
+	margin-right: 0.15rem;
+}
+/*--其他信息 end--*/
+/*--消息红点 start--*/
+/*商品处*/
+.msgHint{
+	width: 0.3rem;
+	height: 0.3rem;
+	background-color: transparent;
+	border-radius: 50%;
+	font-size: 0.22rem;
+	font-weight: bold;
+	color:transparent;
+	position: absolute;
+	right:-0.1rem;
+	top:-0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*其他消息收益消费处*/
+.msgHintOther{
+	width: 0.3rem;
+	height: 0.3rem;
+	background-color: transparent;
+	border-radius: 50%;
+	font-size: 0.22rem;
+	font-weight: bold;
+	color:transparent;
+	position: absolute;
+	right:0.34rem;
+	top:0.35rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hasMsgHint{
+	background-color: #ff3636;
+	color:#fff;
+}
+/*--消息红点 end--*/

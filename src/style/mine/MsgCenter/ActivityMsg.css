@@ -1,0 +1,65 @@
+.ActivityWrap{
+    margin-top: .88rem;
+    font-size: .24rem;
+    margin-bottom: .36rem;
+}
+.ActivityWrap img{
+    display: block;
+}
+.ActivityTime{
+    font-size: .24rem;
+    color: #fff;
+    background: #d2d2d2;
+    padding: .05rem .15rem;
+    border-radius: 5px;
+    margin: .4rem 0;
+}
+.Activitys{
+    width: 90.4%;
+}
+.Activitys img{
+    width: 100%;
+}
+.ActivityLi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ActivityTimep1{
+    font-size: .28rem;
+    font-weight: bold;
+}
+.readClass{
+    color: #999;
+}
+.ActivityTimeDiv{
+    padding: .22rem .26rem;
+    background: #fff;
+}
+.ActivityTimep2{
+    margin-top: .1rem;
+    color: #a0a0a0;
+}
+.ActivitySpan1{
+    color: #fff;
+    background: #000;
+    padding: .1rem .3rem;
+    position: absolute;
+    bottom: .38rem;
+    right: .38rem;
+    border-radius: .4rem;
+}
+.ActivitySpan2{
+    color: #fff;
+    background: rgba(210, 210, 210, .8);
+    padding: .1rem .3rem;
+    position: absolute;
+    bottom: .38rem;
+    right: .38rem;
+    border-radius: .4rem;
+}
+.Activitys>:nth-child(1){
+    position: relative;
+}

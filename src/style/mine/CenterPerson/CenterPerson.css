@@ -1,0 +1,400 @@
+/* 个人中心 */
+.centerPerson_box{
+	padding: 0 0.36rem;
+	margin-top:1.08rem;
+	background: #ffffff; 
+}
+.centerPerson_ul li{
+	padding:0.38rem 0 0.35rem;
+	overflow: hidden;
+	border-bottom:1px solid #eee; 
+}
+.centerPerson_ul li p{
+	float: left;
+	color: #111111;
+	font-size: 0.28rem;
+}
+.centerPerson_ul li i{
+	float: right;
+	display: inline-block;
+	background:url('../../../assets/myPageLeftArr.png') no-repeat center;
+	background-size: 100% 100%;
+	margin:0.05rem 0 0; 
+	width: 0.1rem;
+	height: 0.2rem;
+}
+.centerPerson_ul li span{
+	float:right;
+	display: inline-block;
+	font-size: 0.26rem;
+	color: #999999;
+	margin-right:0.17rem  
+}
+
+/*修改密码*/
+.modifyPassword{
+	padding: 0 0.36rem;
+	margin-top:1.08rem;
+	background: #ffffff;
+}
+.modifyPassword_ul li{
+	padding:0.38rem 0 ;
+	overflow: hidden;
+	border-bottom:1px solid #eee;
+}
+.modifyPassword_ul li p{
+	float: left;
+	color: #111111;
+	font-size: 0.28rem;	
+}
+.modifyPassword_ul li input{
+	float: right;
+	display:inline-block;
+	font-size: 0.26rem;
+	width: 65%;
+	height: 0.4rem;
+	text-align: right;
+	border:none;
+}
+.modifyPassword_ul li input::-webkit-input-placeholder{
+	color:#999999;
+}
+/* 个人信息 */
+.personalIn_box{
+	padding:0 0.36rem;
+	background: #ffffff;
+	margin-top:1.08rem;
+}
+.personalIn_ul li{
+	height: 0.78rem;
+	line-height: 0.78rem;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #eeeeee;
+}
+.personalIn_ul li>p{
+	float:left;
+	display: inline-block;
+	font-size: 0.28rem;
+	color: #111111;
+	line-height: 0.78rem;
+}
+.personalIn_headimg{
+	display: none
+}
+.personalIn_img{
+	float: right;
+	display: inline-block;
+	height: 100%;
+	border-radius: 50%;
+	width: 0.76rem;
+}
+.personalIn_ul li .personalIn_useId{
+	float:right;
+	display: inline-block;
+	font-size: 0.26rem;
+	color: #111111;
+}
+.personalIn_text{
+	float: right;
+	display:inline-block;
+	font-size: 0.26rem;
+	width: 65%;
+	height: 0.5rem;
+	text-align: right;
+	border:none;
+	margin-top:0.14rem; 
+	background: #fff;
+}
+.personalIn_textarea{
+	float: right;
+	display:inline-block;
+	font-size: 0.26rem;
+	width: 50%;
+	border:none;
+	margin-top:0.14rem; 
+	overflow-x:hidden;
+	overflow-y:auto;
+	text-align: right;
+	background: #fff;
+}
+.personalIn_ul .personalIn_autograph{
+	height: auto;
+	overflow: hidden;
+	line-height: normal;
+}
+.personalIn_sex{
+	float: right;
+}
+.personalIn_sex div{
+	float: right;
+	font-size: 0.26rem;
+	color: #111; 
+} 
+.personalIn_sex div:first-child{
+	margin-left:0.2rem; 
+}
+.personalIn_sex div i{
+	display: inline-block;
+	width: 0.32rem;
+	height: 0.32rem;
+	vertical-align: text-bottom;
+	margin-right:0.05rem;
+	background-size:100% 100%;
+}
+.personalIn_sex_del1{
+	background:url('../../../assets/person_sex1.png') no-repeat;
+}
+.personalIn_sex_del2{
+	background:url('../../../assets/person_sex2.png') no-repeat;
+}
+.personalIn_year{
+	float: right;
+	font-size: 0.26rem;
+	color: #999;
+}
+.personalIn_year_icon{
+	display: inline-block;
+	width: 0.12rem;
+	height: 0.28rem;
+	margin-left:0.2rem; 
+	background:url('../../../assets/myPageLeftArr.png') no-repeat;
+	background-size: 100%;
+	vertical-align: middle;
+}
+.personalTag_box{
+	padding: 0.2rem 0.36rem;
+	background: #ffffff;
+	margin-top:0.2rem 
+}
+.personalTag_head{
+	display: flex;
+	justify-content:space-between;
+	padding: 0.1rem 0;
+}
+.personalTag_head p:first-child{
+	font-size: 0.28rem;
+}
+.personalTag_head p:last-child{
+	font-size: 0.24rem;
+	color:#ff0f0f;
+	padding:0.02rem 0; 
+}
+.personalTag_ul{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+}
+.personalTag_ul li{
+	padding: 0.15rem 0.37rem;
+	border-radius: 0.3rem;
+	background: #f5f5f5;
+	font-size: 0.24rem;
+	color: #999999;
+	margin-right:0.3rem;
+	margin-top:0.3rem;
+	position: relative; 
+}
+.personalTag_ul li i{
+	position: absolute;
+	top:-0.05rem;
+	right:-0.02rem;
+	width: 0.24rem;
+	height: 0.24rem;
+	background:url('../../../assets/clear_Tag.png') no-repeat;
+	background-size:100% 100%;
+	display: none;
+}
+.personalTag_ul .personalTag_add{
+	background: #ffd8d8;
+	color: #ff0f0f;
+
+}
+
+/* 修改手机 */
+.changePhone_box{
+	padding:0 0.36rem;
+	background: #ffffff;
+	margin-top:0.88rem;
+}
+.changePhone_Map{
+	padding: 0.48rem 0 0.28rem;  
+	height: 0.6rem;
+	position: relative;
+}
+.changePhone_Map div{
+	position: absolute;
+	top:0.48rem;
+	width: 51%;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.changePhone_Map div:first-child{
+	left:0px;
+	z-index: 100;
+	background:url('../../../assets/change_phone1-0.png') no-repeat;
+	background-size:100% 100%;
+}
+.changePhone_Map div:last-child{
+	right:0px;
+	z-index:99;
+	background:url('../../../assets/change_phone1-1.png') no-repeat;
+	background-size:100% 100%;
+}
+.changePhone_Form li{
+	padding: 0.25rem 0;
+	border-bottom:1px solid #eeeeee; 
+}
+.changePhone_Form li:first-child{
+	display: flex;
+	justify-content: space-between;
+}
+.changePhone_Form li:first-child div{
+	font-size: 0.28rem;
+	line-height: 0.6rem;
+}
+.changePhone_Form li:first-child button{
+	height: 0.6rem;
+	width: 1.83rem;
+	font-size: 0.26rem;
+	color: #999;
+	border: 1px solid #999;
+	border-radius:0.08rem;
+	background:#fff;
+}
+.changePhone_Form li input{
+	display:block;
+	width: 80%;
+	height: 0.6rem;
+	font-size: 0.28rem
+}
+.changePhone_Next{
+	padding: 0.42rem 0;
+	margin-top:0.8rem; 	
+}
+.changePhone_Next div{
+	width: 100%;
+	height: 0.98rem;
+	background: #fc817c;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.98rem;
+	color: #ffffff;
+	border-radius: 0.1rem;
+}
+.changePhone_Text h3{
+	font-size: 0.25rem;
+	padding: 0.18rem 0 0.1rem;
+	font-weight: normal;
+}
+.changePhone_Text p{
+	font-size: 0.25rem;
+	color: #999;
+}
+
+/* 修改手机2 */
+.changePhone_next_Map{
+	padding: 0.48rem 0 0.28rem; 
+	height: 0.6rem;
+	position: relative;
+}
+.changePhone_next_Map div{
+	position: absolute;
+	top:0.48rem;
+	width: 51%;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.changePhone_next_Map div:first-child{
+	left:0px;
+	z-index: 100;
+	background:url('../../../assets/change_phone2-0.png') no-repeat;
+	background-size:100% 100%;
+}
+.changePhone_next_Map div:last-child{
+	right:0px;
+	z-index:99;
+	background:url('../../../assets/change_phone2-1.png') no-repeat;
+	background-size:100% 100%;
+}
+.changePhone_next_Form li{
+	padding: 0.25rem 0;
+	border-bottom:1px solid #eeeeee; 
+}
+.changePhone_next_Form li:first-child{
+	display: flex;
+	justify-content: space-between;
+}
+.changePhone_next_Form li:first-child div{
+	font-size: 0.28rem;
+	line-height: 0.6rem;
+}
+.changePhone_next_Form li:first-child button{
+	height: 0.6rem;
+	width: 1.83rem;
+	font-size: 0.26rem;
+	color: #999;
+	border: 1px solid #999;
+	border-radius:0.08rem;
+	background:#fff;
+}
+.changePhone_next_Form li input{
+	display:block;
+	width: 60%;
+	height: 0.6rem;
+	font-size: 0.28rem;
+}
+
+.Label_Box{
+	position: fixed;
+	top: 4.5rem;
+	left: 5%;
+	width: 90%;
+	background: #fff;
+	border-radius: 0.15rem;
+	z-index: 101
+}
+.Label_Box h3{
+	text-align: center;
+	font-size: 0.3rem;
+	font-weight: normal;
+	padding: 0.33rem 0;
+}
+.Label_Box input{
+	display: none;
+	font-size: 0.28rem;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0.2rem 0.15rem;
+	background: #f5f5f5;
+}
+.Label_Boxdiv{
+	width: 90%;
+	display: flex;
+	margin: 0.35rem auto 0.3rem;
+	justify-content: space-around;	
+}
+.Label_Boxdiv div{
+	width: 2rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #ff0f0f;
+	padding: 0.2rem 0;
+	border-radius: 33px;
+	border: solid 1px #ffd8d8;
+}
+.Label_Boxdiv div:first-child{
+	background: #ffd8d8;
+}
+.Label_text{
+	font-size: 0.28rem;
+	text-align: center;
+	color: #999;
+	padding: 0.3rem 0;
+	display: none;
+}

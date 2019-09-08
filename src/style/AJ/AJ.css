@@ -1,0 +1,153 @@
+/*艾家专区首页--start--*/
+.AJContainer{
+	width: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1rem;
+}
+.AJModule{
+	width:100%;
+	background-color: #fff;
+	margin-bottom: 0.28rem;
+}
+.AJtitle{
+	width:91%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0.3rem 0rem;
+}
+/*艾家名称最多显示六个字*/
+.AJtitle>p{
+	width:1.8rem;
+	font-size: 0.3rem;
+	white-space:nowrap;
+	/* text-overflow : clip; */
+	white-space: nowrap;  /*强制span不换行*/
+	display: inline-block;  /*将span当做块级元素对待*/
+	overflow: hidden;  /*超出宽度部分隐藏*/
+	text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+.AJtitle>span{
+	font-size: 0.26rem;
+	color:#a5a5a5;
+}
+.AJMain{
+	width: 91%;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.AJMain li{
+	width:25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 0.3rem;
+}
+.AJMain li div{
+	width: 1.2rem;
+	height:1.2rem;
+	margin-bottom: 0.1rem;
+}
+.AJMain li div img{
+	width: 100%;
+	height:100%;
+}
+.AJMain li>p{
+	width:80%;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	text-align: center;
+	max-height:0.4rem;
+	white-space: nowrap;  /*强制span不换行*/
+	display: inline-block;  /*将span当做块级元素对待*/
+	overflow: hidden;  /*超出宽度部分隐藏*/
+	text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+/*艾家专区首页--end--*/
+/*分类艾家--start--*/
+.classifyAJContainer{
+	width:100%;
+	background-color: #fff;
+	padding-top: 0.88rem;
+	margin-bottom: 1rem;
+}
+.classifyAJ{
+	width:90.4%;
+	margin:auto;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e0e0e0;
+	padding:0.25rem 0rem;
+}
+.classifyAJ div{
+	width: 0.72rem;
+	height:0.72rem;
+	flex-shrink: 0;
+	display: flex;
+}
+.classifyAJ div img{
+	width: 100%;
+	height:100%;
+}
+.classifyAJ>p{
+	/* width: 2.8rem;/*必须要给宽度*/
+	width: 80%;/*必须要给宽度*/
+	white-space: nowrap;  /*强制span不换行*/
+	display: inline-block;  /*将span当做块级元素对待*/
+	overflow: hidden;  /*超出宽度部分隐藏*/
+	text-overflow: ellipsis;  /*超出部分以点号代替*/
+	font-size: 0.28rem;
+	margin-left: 0.28rem;
+}
+/*分类艾家--end--*/
+/*全部艾家--start--*/
+.allAJContainer{
+	width: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1.08rem;
+}
+.allAJMain{
+	width:100%;
+	background-color: #fff;
+}
+.allAJMain>p{
+	width: 97.3%;
+	height:0.4rem;
+	background-color: #f1f0f5;
+	font-size: 0.28rem;
+	padding-left: 2.7%;
+	display: flex;
+	align-items: center;
+}
+.allAJContainer>p{
+	width: 97.3%;
+	height:0.4rem;
+	background-color: #f1f0f5;
+	font-size: 0.28rem;
+	padding-left: 2.7%;
+	position: fixed;
+	top:0.88rem;
+	left:0;
+	display: flex;
+	align-items: center;
+}
+/*全部艾家锚点*/
+.allAJTarget{
+	position: fixed;
+	right:0.2rem;
+	top:4rem;
+	display: flex;
+	flex-direction: column;
+}
+.allAJTarget a{
+	font-size: 0.22rem;
+}
+.fixed{
+	position: fixed;
+	top:0.88rem;
+	left:0rem;
+}
+/*全部艾家--end--*/

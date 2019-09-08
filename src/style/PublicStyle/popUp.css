@@ -1,0 +1,164 @@
+/*纯文字弹窗 -- start --*/
+.cha_PopContainer{
+	/* width: 82%; */
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index: 999;
+	background:rgba(48, 48, 48, 0.8);
+	border-radius: 0.2rem/0.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.cha_PopContainer p{
+	/* max-width: max-content; */
+	font-size: 0.28rem;
+	line-height: 0.45rem;
+	color:#fff;
+	text-align: center;
+	/*强制不换行*/
+	/*white-space:nowrap;*/
+	/*word-wrap:break-word;*/
+	/* background:rgba(48, 48, 48, 0.8);
+	border-radius: 0.2rem/0.2rem; */
+	padding:0.23rem 0.8rem;
+}
+.htitle{
+	font-weight: normal;
+}
+.wrap{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 200;
+}
+.hide{
+	display: none;
+}
+/* 有成功图标弹窗 */
+.successIcon{
+	display: none;
+	width:0.83rem;
+	height:0.81rem;
+	background-image: url("../../assets/pop_success.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: calc(50% - 0.415rem);
+	margin-top: 0.25rem;
+}
+/* 有失败图标弹窗 */
+.fallIcon{
+	display: none;
+	width:0.83rem;
+	height:0.81rem;
+	background-image: url("../../assets/pop_fall.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: calc(50% - 0.415rem);
+	margin-top: 0.25rem;
+}
+/*纯文字弹窗 -- end --*/
+/*有按钮弹窗 -- start --*/
+.btn_PopContainer{
+	width: 82%;
+	padding:0.5rem 0rem;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color: #fff;
+	border-radius: 0.1rem/0.1rem;
+}
+.btn_PopContainer h5{
+	font-size: 0.3rem;
+	margin:auto;
+	text-align: center;
+}
+.btn_PopContainer p{
+	width: 82%;
+	font-size: 0.28rem;
+	line-height: 0.5rem;
+	margin:0.3rem auto;
+	text-align: center;
+	color: #666
+}
+.btn_PopContainer div{
+	width: 69%;
+	margin:auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*确定按钮*/
+.btnLeft{
+	width:1.8rem;
+	height: 0.7rem;
+	border-radius: 0.4rem/0.4rem;
+	background-color: #ffd8d8;
+	font-size: 0.3rem;
+	color:#ff0f0f;
+	letter-spacing: 0.02rem;
+}
+/*确定按钮居中*/
+.center{
+	justify-content: center!important;
+}
+/*取消按钮*/
+.btnRight{
+	width:1.8rem;
+	height: 0.68rem;
+	border:1px solid #ffd8d8;
+	border-radius: 0.4rem/0.4rem;
+	background-color: #fff;
+	font-size: 0.3rem;
+	color:#ff0f0f;
+	letter-spacing: 0.02rem;
+}
+/*有按钮弹窗 -- end --*/
+
+
+/* 大图预览 */
+.bigImgBox{
+	position:fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	/* height: 100%; */
+	background:rgba(0,0,0,0.9);
+	z-index: 1000;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+}
+.imgbox{
+	width: 100%;
+	height:100%;
+}
+.slide{
+	display: flex;
+	align-items: center;
+}
+.swiper_img{
+	max-height: 100%;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.clearImg{
+	position: absolute;
+	right: 0.3rem;
+	top: 0.5rem;
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background-image: url("../../assets/Search-hdel.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 99;
+}

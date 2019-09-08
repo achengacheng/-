@@ -1,0 +1,46 @@
+.serviceMsgHead{
+    margin-top: .99rem;
+    margin-bottom: .36rem;
+}
+.serviceMsgLi{
+    padding: 0 .36rem;
+    overflow: hidden;
+}
+.serviceMsgTime{
+    width: 40%;
+    font-size: .24rem;
+    color: #fff;
+    background: #d2d2d2;
+    padding: .05rem .15rem;
+    border-radius: 5px;
+    margin: .4rem auto;
+    text-align: center;
+}
+.ActivityTimep1{
+    font-size: .28rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: .05rem;
+    justify-content: space-between;
+}
+.ActivityTimep1 i{
+    width: .12rem;
+    height: .12rem;
+    border-radius: 50%;
+    background: #ff0f0f;
+}
+.readClass{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #999;
+}
+.ActivityTimeDiv{
+    padding: .28rem .35rem;
+    background: #fff;
+}
+.ActivityTimep2{
+    margin-top: .1rem;
+    color: #a0a0a0;
+    font-size: .24rem;
+}

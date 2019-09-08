@@ -1,0 +1,41 @@
+/*
+* @Author: hbtest1
+* @Date:   2018-02-26 16:44:34
+* @Last Modified by:   zxc164398048
+* @Last Modified time: 2018-06-22 18:55:29
+*/
+.footer_box{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1rem;
+	background-color: rgb(255,255,255);
+	border-top: 0.02rem solid #e1e1e1;
+	z-index: 900;
+}
+.footer_ul{
+	display:flex;
+	justify-content:space-between;
+	width: 100%;
+	height: 100%;
+}
+.footer_ul li{
+	width: 20%;
+	height: 100%;
+	font-size: 0.36rem;
+	text-align: center;
+}
+.footer_ul li img{
+	display: block;
+	height: 45%;
+	width: auto;
+	margin: 8% auto 0;
+}
+.footer_ul li p{
+	font-size: 0.22rem;
+	padding-top: 0.08rem;
+}
+.footernew_p{
+	color: red;
+}

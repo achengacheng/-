@@ -1,0 +1,496 @@
+/* 提交订单 */
+.PlaceOrder_box{
+	padding-top: 0.88rem;
+	padding-bottom: 1.9rem;
+}
+.placeorder_address{
+	background: #fff;
+	padding:0.2rem 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.placeorder_addname{
+	width: 95%;
+	font-size: 0.28rem;
+	color: #111;
+}
+.placeorder_addname_text{
+	line-height: 0.71rem
+}
+.placeorder_addname p:first-child span{
+	margin-left:0.3rem; 
+}
+.placeorder_addname i{
+	display: inline-block;
+	width: 0.4rem;
+	height:0.4rem;
+	background:url('../../assets/addressImg.png') no-repeat;
+	background-size:100% 100%;
+	vertical-align: middle;
+	margin-right:0.3rem; 
+}
+.addname{
+	overflow: hidden;
+	margin-top:0.1rem;
+	
+}
+.addname span{
+	float: left;	
+	display: inline-block;
+}
+.addname span:first-child{
+	width:15%; 
+}
+.addname span:last-child{
+	width:85%; 
+}
+.change_addname{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+}
+.change_addname i{
+	width: 0.12rem;
+	height:0.25rem;
+	background:url('../../assets/Mine-back.png') no-repeat;
+	background-size:100% 100%; 
+}
+.PlaceOrderGoods_box{
+	background: #fff;
+	margin-top:0.2rem;
+	padding: 0 0.36rem;
+}
+.PlaceOrderGoods_box h2{
+	font-size: 0.28rem;
+	font-weight: normal;
+	padding: 0.36rem 0 0;
+}
+.PlaceOrderGoods_ul li{
+	padding:0.36rem 0;
+	border-bottom:1px solid #eeeeee; 
+}
+.goodsBox{
+	display: flex;
+	justify-content: flex-start;
+}
+.goodsBox img{
+	display: inline-block;
+	width: 1.57rem;
+	height:1.57rem;
+}
+.goodsBox>div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.goodsMsg{
+	font-size: 0.28rem;
+	padding: 0.2rem 0 0.1rem;
+}
+.goodsMsg input{
+	font-size: 0.28rem;
+	width: 85%;
+	padding: 0.03rem 0 0.03rem 0.1rem;
+}
+.PlaceOrderGoods_text{
+	padding-left:0.2rem; 
+}
+.PlaceOrderGoods_text h3{
+	font-size: 0.28rem;
+	color: #111;
+	font-weight: normal;
+} 
+.PlaceOrderGoods_text p{
+	font-size: 0.26rem;
+	color: #666;
+	display: flex;
+	justify-content: space-between;
+	width: 5.02rem;
+}
+.PlaceOrderGoods_text div{
+	font-size: 0.26rem;
+	color: #666;
+}
+.PlaceOrderGoods_Price{
+	margin-top:0.2rem;
+	padding:0.1rem 0;
+	background: #fff; 
+	padding: 0 0.36rem; 
+}
+.PlaceOrderGoods_Price>div{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.24rem 0;
+}
+.PlaceOrderGoods_Price>div:first-child{
+	padding-bottom: 0.1rem;	
+}
+.PlaceOrderGoods_Price>div p{
+	font-size: 0.28rem;
+} 
+.PlaceOrderGoods_Price>div div{
+	color: #ff0f0f;
+	font-size: 0.28rem;
+}
+
+.PlaceOrderButton_box{
+	position: fixed;
+	bottom:0px;
+	left: 0px;
+	width: 100%;
+	background: #fff;
+}
+.PlaceOrderButton_box>p{
+	font-size: 0.26rem;
+	color: #010101;
+	padding: 0.18rem 0.36rem;
+}
+.PlaceOrderButton_box>div{
+	display: flex;
+	padding: 0 0 0 0.36rem;
+	justify-content: space-between;
+	border-top:1px solid #eee; 
+}
+.PlaceOrderButton_price{
+	font-size: 0.28rem;
+	padding:0.3rem 0 0; 
+}
+.PlaceOrderButton_price span{
+	color:#ff0f0f;
+}
+.PlaceOrderButton_btn{
+	font-size: 0.28rem;
+	color: #fff;
+	padding: 0.30rem 0.46rem;
+	background: #ff0f0f;
+}
+
+/*-------------------- 选择地址------------------------ */
+.addressP{
+	color: #ff0f0f;
+	text-align: center;
+	background: #fff;
+	font-size: 0.3rem;
+	padding: 0.35rem 0;
+}
+.OrderAddress_box{
+	padding: 0.88rem 0 0;
+}
+.addressList{
+	padding: 0.18rem 0.36rem 1.18rem;
+}
+.addressList li{
+	background: #fff;
+	margin: 0.18rem 0;
+	padding: 0.3rem 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.addressList li a{
+	display: inline-block;
+	width: 80%;
+
+}
+.addressText{
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.addressText p{	
+	font-size: 0.24rem;
+	color: #666;
+}
+.addressText p span{
+	display: inline;
+	color: #111;
+	font-size: 0.26rem
+}
+.addressText p:first-child{
+	margin-bottom:0.2rem 
+}
+.Clear_address{
+	width: 0.24rem;
+	height: 0.24rem;
+	background:url('../../assets/Mine-rite.png') no-repeat;
+	background-size:100% 100%; 
+	margin-top:0.4rem; 
+}
+.moren_address{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 0.54rem;
+	height: 0.54rem;
+	background:url('../../assets/Mine-def.png') no-repeat;
+	background-size:100% 100%; 
+}
+.add_address{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	font-size: 0.3rem;
+	color: #fff;
+	background:rgba(255, 15, 15, 0.95);
+	text-align: center;
+	padding: 0.34rem 0;
+}
+/*------------------ 提交订单 待支付 ------------------*/
+.payorder_box{
+	padding-top: 0.88rem;
+}
+.payorderhead_box{
+	background: #fff;
+	padding: 0.74rem 0 0.48rem;
+}
+.payorderhead_box img{
+	display: block; 
+	width: 1rem;
+	height:auto;
+	margin: 0 auto ;
+}
+.payorderhead_box p{
+	font-size: 0.3rem;
+	color: #005719;
+	text-align: center;
+	margin-top: 0.24rem;
+}
+.payorderhead_box div{
+	font-size: 0.24rem;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.1rem
+}
+.payordertext_box{
+	border-top:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
+	padding: 0.15rem 0.36rem;	
+	background: #fff;	
+}		
+.payordertext_box div{
+	font-size: 0.26rem;
+	color: #666666;
+	padding: 0.15rem 0;
+}
+.payordertext_box div span{
+	color: #ff0f0f;
+}
+.payorderway_box{
+	padding: 0 0.36rem;
+	background: #fff;
+}
+.payorderway_box>div{
+	padding: 0.3rem 0 0.24rem;
+	font-size: 0.26rem;
+	color: #666666;
+}
+.payorderway li{
+	display: flex;
+	justify-content: space-between;
+	padding:0.24rem 0;
+	border-bottom:1px solid #eeeeee; 
+}
+.payorderway li div{
+	display: flex;
+	justify-content: flex-start;
+	font-size:0.26rem;
+	color: #666666; 	
+} 
+.payorderway li i{
+	width: 0.12rem;
+	height: 0.24rem;
+	background:url('../../assets/Mine-back.png') no-repeat;
+	background-size:100% 100%;
+	margin-top:0.1rem; 
+}
+.payorderway_zfb img{
+	width: 0.42rem;
+	height: 0.42rem;
+}
+.payorderway_zfb span{
+	line-height: 0.42rem;
+	padding-left:0.4rem;
+}
+.payorderway_wx img{
+	width: 0.40rem;
+	height: 0.40rem;
+}
+.payorderway_wx span{
+	line-height: 0.4rem;
+	padding-left:0.4rem;
+}
+.payorderway_yhk img{
+	width: 0.48rem;
+	height: 0.37rem;
+}
+.payorderway_yhk span{
+	line-height: 0.37rem;
+	padding-left:0.32rem;
+}
+/* --------------------------支付成功--------------- */
+.PaySuccess_box{
+	padding-top: 0.88rem
+}
+.PaySuccesstext_box{
+	padding: 0.15rem 0.36rem;	
+	background: #fff;
+	border-top:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
+}
+.PaySuccesstext_box div{
+	font-size: 0.26rem;
+	color: #666666;
+	padding: 0.15rem 0;
+}
+.PaySuccesstext_box div span{
+	color: #ff0f0f;
+}
+.PaySuccesshb_box{
+	padding:0.34rem 0.36rem 0.3rem;
+	background: #fff;
+}
+.PaySuccesshb_box>p{
+	font-size: 0.3rem;
+	color: #666;
+	text-align: center;
+	margin-bottom:0.2rem 
+}
+.PaySuccesshb_box>p>span{
+	font-size: 0.26rem;	
+}
+.PaySuccesshb_bg{
+	height:4.64rem;
+	background:url('../../assets/payhb_Bg.png') no-repeat;
+	background-size:100% 100%;
+}
+.PaySuccesshb_text{
+	text-align: center;
+	padding-top: 0.75rem;
+	color: #df0043;
+}
+.PaySuccesshb_text p{
+	font-size: 0.3rem;
+}
+.PaySuccesshb_text div{
+	padding-top: 0.2rem;
+	font-size: 0.54rem;
+}
+.PaySuccesshb_text div span{
+	font-size: 0.36rem;
+}
+.PaySuccesshb_btn{
+	width: 3.36rem;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+	background: #ffb828;
+	color: #ad2929;
+	font-size: 0.3rem;
+	box-shadow: 0px 10px 25px #960003;
+	border-radius: 0.4rem;
+	margin: 1rem auto 0;
+}
+.PaySuccessbtn_box{
+	display: flex;
+	justify-content: space-around;
+	padding: 0.3rem 0.2rem 0;
+}
+.PaySuccessbtn_box a div{
+	width: 2rem;
+	height: 0.7rem;
+	border-radius: 10px;
+	border: solid 1px #000000;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.28rem;
+}
+.PaySuccessbtn_box a:last-child div{
+	border: solid 1px #ff0f0f;
+	color: #ff0f0f;
+}
+.PaySuccessTs_box{
+	font-size: 0.25rem;
+	background: #fff;
+	padding: 0.15rem 0.36rem 0.3rem;
+	line-height: 0.38rem
+}
+.PaySuccessTs_box h3{
+    padding: 0.18rem 0 0.1rem;
+    font-weight: normal;
+}
+.PaySuccessTs_box p{
+    color: #999;
+}
+
+.Label_Box{
+	position: fixed;
+	top: 4.5rem;
+	left: 5%;
+	width: 90%;
+	background: #fff;
+	border-radius: 0.15rem;
+	z-index: 101
+}
+.Label_Box h3{
+	text-align: center;
+	font-size: 0.3rem;
+	font-weight: normal;
+	padding: 0.33rem 0;
+}
+.Label_Box input{
+	font-size: 0.28rem;
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+	padding: 0.2rem 0.15rem;
+	background: #fff;
+	border: 1px solid #bebebe;
+	border-radius: 10px;
+}
+.Label_Boxdiv{
+	width: 90%;
+	display: flex;
+	margin: 0.35rem auto 0.3rem;
+	justify-content: space-around;	
+}
+.Label_Boxdiv div{
+	width: 2rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #ff0f0f;
+	padding: 0.2rem 0;
+	border-radius: 33px;
+	border: solid 1px #ffd8d8;
+}
+.Label_Boxdiv div:first-child{
+	background: #ffd8d8;
+}
+.Label_text{
+	font-size: 0.28rem;
+	text-align: center;
+	color: #999;
+	padding: 0.3rem 0;
+	display: none;
+}
+.waitPayBox{
+	position: fixed;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+	display: none;
+}
+.waitPayBox img{
+	display: block;
+	width: 20%;
+	margin:5.5rem auto 0;
+}
+.waitPayBox p{
+	font-size: 0.28rem;
+	color: #111;
+	text-align: center;
+
+}

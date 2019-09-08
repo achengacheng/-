@@ -1,0 +1,64 @@
+.PU_box{
+	background: #fff; 
+}
+.PU_box>p{
+	font-size: 0.28rem;
+	color: #111;
+}
+.ReturnImg{
+    font-size: .28rem;
+    line-height: .7rem;
+    height: .7rem;
+}
+.AddImg{
+	width: 1.55rem;
+	height: 1.55rem;
+	background: #eee;
+	display: flex;
+}
+.AddImg>img{
+	margin: auto;
+}
+.imgbox{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.imgbox div{
+	margin-top: .2rem;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+/* .labels{
+	margin-left: .15rem;
+} */
+.inputs{
+	display: none;
+}
+.imgbox>div{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+}
+.imgbox>div>img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: .17rem;
+}
+.abImg{
+	width: .33rem !important;
+	height: .33rem !important;
+	display: inline-block;
+	position: absolute;
+	right: -.07rem;
+	top: -.14rem;
+}
+.imggone{
+	display: none !important;
+}

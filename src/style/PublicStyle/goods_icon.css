@@ -1,0 +1,18 @@
+.goods_icon_box{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom:0.1rem;
+	right: 0.2rem;
+}
+.goods_icon{
+	display: inline-block;
+	width: 0.38rem;
+	height: 0.38rem;
+	background:url('../../assets/goods_icon.png') no-repeat;
+	background-size:100% 100%;
+	margin-left:0.05rem; 
+}
+.goods_icon_no{
+	
+}

@@ -1,0 +1,95 @@
+.WidthBox{
+    background: #fff;
+    margin-top: .88rem;
+    font-size: .28rem;
+}
+.WidthCardBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .45rem .36rem;
+}
+.WidthCardBox img{
+    width: 3.27rem;
+}
+.WidthMsg{
+    text-align: center;
+    padding: .7rem 0;
+    line-height: .5rem;
+    font-size: .28rem;
+}
+.EditBoxBtn{
+    background: #ff0f0f;
+    width: 4.46rem;
+    color:#fff;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 20.2%;
+    box-shadow: 0 5px 7px #ff0f0f;
+    height: .88rem;
+    line-height: .88rem;
+    border-radius: 3px;
+}
+.AlipayDefault{
+    color: #666;
+    display: flex;
+    align-items: center;
+    font-size: .24rem;
+    padding: 0 .36rem;
+    margin: .36rem 0;
+}
+.AlipayDefault p{
+    margin-left: .13rem;
+}
+.AlipayBtn{
+    font-size: .28rem;
+    color: #fff;
+    background: #ff0f0f;
+    line-height: .98rem;
+    height: .98rem;
+    margin: 0 .36rem;
+    text-align: center;
+    border-radius: .1rem;
+    margin-top: .7rem;
+}
+.ConsumeContent{
+    font-size: .24rem;
+    color: #999;
+    margin-top: 1rem;
+    line-height: .45rem;
+    padding: 0 .36rem;
+    margin-bottom: .98 rem;
+}
+.ConsumeContent>div{
+    font-weight: bold;
+    color: #000;
+}
+.AlipayMsg{
+    padding: 0 .36rem;
+}
+.AlipayMsgp{
+    /* line-height: .9rem; */
+    display: flex;
+    align-items: center;
+}
+.AlipayMsgp img{
+    width: .4rem;
+}
+.AlipayCard{
+    width: .5rem !important;
+}
+.AlipayMsg input{
+    font-size: .28rem;
+}
+.AlipayMsg>:nth-child(1){
+    display: flex;
+    padding: .3rem 0rem;
+    justify-content: space-between;
+    border-bottom:1px solid #f5f5f5;
+    align-items: center;
+}
+.AlipayMsg>:nth-child(2){
+    line-height: .9rem;
+}

@@ -1,0 +1,84 @@
+.InviteWrap{
+    font-size: .28rem;
+    margin-top: 1.08rem;
+}
+.InviteHead{
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    padding: .3rem 1rem;   
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+}
+.InviteHead>p{
+    height: .36rem;
+    width: 1px;
+    background: #e1e1e1;
+}
+.InviteHead>div>p:nth-child(1){
+    color: #999;
+    margin-bottom: .15rem;
+}
+.InviteHead>div>p:nth-child(2){
+    color: #ffae00;
+    font-size: .3rem;
+}
+.InviteNumber{
+    font-size: .28rem;
+    margin-top: .2rem;
+    height: 1.15rem;
+    line-height: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .36rem;
+    background:#fff;
+}
+.InviteNumber>p{
+    color: #ffae00;
+    font-size: .3rem;
+}
+.InviteBox{
+    margin-top: .2rem;
+    background:#fff;
+    font-size: .24rem;
+    color: #999;
+}
+.InviteBox>li{
+    display: flex;
+    padding: .25rem .36rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f5f5f5;
+}
+.InviteIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.InviteIcon>div{
+    margin-left: .15rem;
+}
+.InviteIcon>img{
+    border-radius: 50%;
+    width: .64rem;
+    height: .64rem;
+}
+.InviteIcon p{
+    line-height: .4rem;
+}
+.InviteLineTime{
+    text-align: right;
+}
+.InviteLineTime>p{
+    line-height: .4rem;
+}
+.InviteNewName{
+    color: #000;
+    font-size: .3rem;
+}
+.InviteNewMoney{
+    color: #05c203;
+    font-size: .28rem;
+}

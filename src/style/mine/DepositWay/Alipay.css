@@ -1,0 +1,54 @@
+.AlipayWrap{
+    margin-top: .88rem;
+    font-size: .28rem;
+}
+.AlipayBox{
+    overflow: hidden;
+}
+.AlipayBox input{
+    font-size: .28rem;
+    text-align: right;
+}
+.AlipayBox>p{
+    margin-top: .2rem;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 .36rem;
+}
+.AlipayDefault{
+    color: #666;
+    display: flex;
+    align-items: center;
+    font-size: .24rem;
+    padding: 0 .36rem;
+    margin: .36rem 0;
+}
+.AlipayDefault p{
+    margin-left: .13rem;
+}
+.AlipayBtn{
+    color: #fff;
+    background: #ff0f0f;
+    line-height: .98rem;
+    height: .98rem;
+    margin: 0 .36rem;
+    text-align: center;
+    border-radius: .1rem;
+    margin-top: 1.5rem;
+    
+}
+.ConsumeContent{
+    font-size: .24rem;
+    color: #999;
+    margin-top: 1.8rem;
+    line-height: .45rem;
+    padding: 0 .36rem;
+}
+.ConsumeContent>div{
+    font-weight: bold;
+    color: #000;
+}

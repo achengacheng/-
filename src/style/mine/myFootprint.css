@@ -1,0 +1,61 @@
+.footPrintContainer{
+	width:100%;
+	padding-top: 1.08rem;
+}
+/*主要展示模块*/
+.footPrintMain{
+	width:100%;
+	background-color: #fff;
+	margin-bottom: 0.2rem;
+}
+.footPrintTime{
+	width:90.6%;
+	padding:0.15rem 4.7%;
+	border-bottom: 1px solid #e1e1e1;
+	display: flex;
+}
+.footPrintTime p{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+}
+.footPrintTime i{
+	margin-right: 0.36rem;
+}
+/*脚部*/
+.footPrintContainer footer{
+	width:90.6%;
+	height:1.2rem;
+	padding:0rem 4.7%;
+	background-color: #f9f9f9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	position: fixed;
+	bottom: 0rem;
+	left:0rem;
+}
+.footPrintContainer footer p{
+	font-size: 0.28rem;
+	line-height: 0.32rem;
+	color:#666;
+	display:flex;
+	align-items: center; 
+}
+.footPrintContainer footer p>i{
+	margin-right: 0.12rem;
+}
+.footPrintContainer footer span{
+	width:1.5rem;
+	height:0.7rem;
+	font-size: 0.28rem;
+	color:#fff;
+	background-color: #ff5e57;
+	border-radius: 0.1rem/0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.02rem;
+}
+.footHidden{
+	display: none!important;
+}

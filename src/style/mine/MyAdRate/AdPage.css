@@ -1,0 +1,101 @@
+
+.AdPageNav{
+    line-height: .7rem;
+    line-height: .7rem;
+    display: flex;
+    top: .88rem;
+    font-size: .28rem;
+    align-items: center;
+    justify-content: space-around;
+    background: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+
+.AdPageBox{
+    margin-top: 1.78rem;
+    padding: 0 .25rem;
+}
+.AdCardLi{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: url('../../../assets/Mine-ad-bg.png');
+    background-size: 100% 100%;
+    height: 1.7rem;
+    width: 100%;
+    margin-top: .3rem;
+}
+.AdSmal{
+    font-size: .25rem;
+}
+.AdCardImgShow{
+    width: .9rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.AdCardImgDj{
+    display: block; 
+    position: absolute;
+    top: .25rem;
+    right: .22rem;
+    width: .85rem;
+}
+.AdCardImgHide{
+    display: none;
+}
+.AdCardLi>:nth-child(1){
+    font-size: .4rem;
+    width: 34%;
+    text-align: center;
+    color: #fff;
+}
+.AdCardRight p{
+    line-height: .35rem;
+}
+.AdCardRight{
+    padding: 0.2rem;
+    font-size: .24rem;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 91%;
+    width: 62%;
+}
+.imgRight{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .97rem;
+}
+.AdCardtime{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999999;
+}
+.AdCardtime :nth-child(2){
+    color: #229fff;
+    font-size: .22rem;
+}
+.AdCardRightP1{
+    font-size: .28rem;
+}
+.AdCardSpan1{
+    color: #ff3667;
+}
+.AdCardSpan2{
+    color: #005719;
+}
+.curCss{
+    color: #ff0b41;
+}

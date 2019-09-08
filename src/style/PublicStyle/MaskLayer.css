@@ -1,0 +1,45 @@
+.MaskLayer_box{
+	position:fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	background:rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.MaskLayer_box1{
+	position:fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	background:rgba(0,0,0,0.5);
+	z-index: 1000;
+	display: none;
+}
+.fxpopsBox{
+	width: 85%;
+	margin: 0 auto;
+	padding: 2rem 0 0;
+}
+.fxpopsBox>img{
+	position:absolute;
+	right: 0.8rem;
+	top:0.5rem; 
+}
+.fxpopsBg{
+	background: url(../../assets/wxFxbg.png) no-repeat;
+	background-size:100% 100%;
+	padding: 0.5rem 0;
+}
+.fxpopsBg p{
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+}
+.fxpopsBg div{
+	display: flex;
+	justify-content: center;
+}
+.fxpopsBg div img{
+	margin: 0.5rem 0.2rem 0; 
+}

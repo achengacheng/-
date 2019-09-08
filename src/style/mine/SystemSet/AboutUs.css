@@ -1,0 +1,36 @@
+.AboutUsWrap{
+    margin-top: .88rem;
+    font-size: .26rem;
+    height: calc(100% - .88rem);
+    background: #fff;
+    position: absolute;
+    width: 100%;
+}
+.AboutUsCeng{
+    overflow: hidden;
+}
+.AboutUsWrap img{
+    width: 100%;
+}
+.AboutUsHeight{
+    height: 100%;
+}
+.AboutUscontent{
+    text-align: center;
+    line-height: .4rem;
+    margin-top: .3rem;
+}
+.AboutUsFoot{
+    font-size: .23rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: .2rem;
+}
+.AboutUsFoot :nth-child(1){
+    color: #0090ff;
+}
+.AboutUsFoot :nth-child(2){
+    color: #959595;
+}

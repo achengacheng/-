@@ -1,0 +1,573 @@
+/* 订单状态页 */
+.orderNav{
+    height: .7rem;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .28rem;
+    top: .88rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.orderCard{
+    background: #fff;
+    font-size: .24rem;
+    margin-top: .2rem;
+}
+.orderNum{
+    display: flex;
+    justify-content: space-between;
+    height: .88rem;
+    margin: 0 .36rem;
+    line-height: .88rem;
+    border-bottom: 1px solid #eee;
+}
+.orderWrap{
+    margin-top: 1.58rem;
+}
+.orderBox{
+    display: flex;
+    justify-content: left;
+    margin: 0 .36rem;
+    padding: .4rem 0;
+    border-bottom: 1px solid #eee;
+}
+.orderBox>img{
+    width: 1.57rem;
+    height: 1.57rem;
+}
+.orderNum :nth-child(1){
+    color: #666666;
+}
+.orderNum :nth-child(2){
+    color: #ff0f0f;
+}
+.orderBoxRi{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: .22rem;
+    width: 75%;
+    color: #999;
+}
+.orderBoxRid{
+    display: flex;
+    justify-content: space-between;
+}
+.orderBoxRid span{
+    font-size: .17rem;
+}
+.orderBtn{
+    display: flex;
+    justify-content: space-between;
+    height: 1.1rem;
+    padding: 0 .36rem;
+}
+.orderBtn>:nth-child(1){
+    line-height: 1.1rem;
+    color:#999;
+}
+.orderBtnBox{
+    display: flex;
+    align-items: center;
+}
+.orderBtnBox div{
+    padding: .1rem .2rem;
+    border: 1px solid #000;
+    border-radius: .07rem;    
+}
+.orderBtnBox :nth-child(2){
+    margin-left: .3rem;
+    color: #ff0f0f;
+    border: 1px solid #ff0f0f !important;
+}
+.orderBtnBox :nth-child(2) a{
+    color: #ff0f0f;
+}
+.redBtn{
+    margin-left: .3rem;
+    color: #ff0f0f;
+    border: 1px solid #ff0f0f;
+    border: 1px solid #ff0f0f !important;
+}
+.orderCur{
+    color: #ff0f0f;
+}
+/* 订单状态页--End */
+
+/* 订单详情 */
+.msgBanner{
+    font-size: .28rem;
+    color: #fff;
+    margin-top: .88rem;
+    height: 1.6rem;
+    background-image: url("../../../assets/Mine-Obanner.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: .36rem;
+    padding-right: .36rem;
+    justify-content: space-between;
+}
+.msgBanner1{
+    font-size: .28rem;
+    color: #fff;
+    margin-top: .88rem;
+    height: 1.6rem;
+    background-image: url("../../../assets/Mine-Obanner.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: .36rem;
+    padding-right: .36rem;
+}
+.msgBanner1>div{
+    margin-left: .15rem;
+}
+.msgBanner1>div :nth-child(2){
+    font-size: .24rem;
+}
+.msgBanners{
+    display: flex;
+    align-items: center;
+}
+.msgBanners>div{
+    margin-left: .15rem;
+}
+.msgBanners>div :nth-child(2){
+    font-size: .24rem;
+}
+.msgBanner>:nth-child(2){
+    justify-content: right;
+    font-size: .24rem;
+    margin-top: .38rem;
+}
+.orderLogistics{
+    font-size: .23rem;
+    color: #005719;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1.26rem;
+    background: #fff;
+    padding: 0 .36rem;
+}
+.orderLogistics>img{
+    width: .12rem;
+    height: .22rem;
+}
+.orderLogs{
+    display: flex;
+    align-items: center;
+    font-size: .24rem;
+}
+.orderLogs img{
+    width:.59rem;
+    height: .46rem;
+}
+.orderLogs div{
+    line-height: .4rem;
+    margin-left: .1rem;
+}
+.orderLogs>div :nth-child(2){
+    color: #000;
+}
+.orderGoodsBox{
+    font-size: .26rem;
+    background: #fff;
+    padding: 0 .36rem;
+    border-top: 1px solid #eee;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+}
+.orderGoodsName{
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    font-weight: bold;
+}
+.orderGoodsList{
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-start;
+    padding: .36rem 0;
+}
+.orderGoodsList>img{
+    width: 1.57rem;
+    height: 1.57rem;
+}
+.orderGoodsList>div{
+    width: 74%;
+    margin-left: .25rem;
+}
+.orderGoodsList>div>:nth-child(2){
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.orderGoodsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.orderSpan{
+    font-size: .17rem;
+}
+.orderGoodsColorG{
+    color: #666;
+}
+.orderName{
+    height: 1.4rem;
+    background: #fff;
+    font-size: .26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 .36rem;
+    line-height: .5rem;
+    margin-bottom: .2rem;
+}
+.orderAd>div p{
+    line-height: .55rem;
+}
+.orderAd img{
+    width: .12rem;
+}
+.orderAd{
+    display: flex;
+    justify-content: center;
+    height: 1.4rem;
+    background: #fff;
+    font-size: .28rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .36rem;
+    font-weight: bold;
+}
+.orderTel{
+    margin-left: .7rem;
+}
+.orderPrice{
+    font-weight: normal;
+    color: #ff0f0f;
+}
+.orderPriceMsg{
+    background: #fff;
+    padding: 0 .36rem;
+    margin-top: .2rem;
+}
+.orderPriceMsg>:nth-child(1){
+    font-size: .28rem;
+    font-weight: bold;
+    line-height: .88rem;
+    border-bottom: 1px solid #eee;
+}
+.orderPriceAll{
+    font-size: .28rem;
+    padding: .2rem 0;
+    color: #666;
+}
+.orderPriceAll>div{
+    display: flex;
+    line-height: .5rem;
+    justify-content: space-between;
+}
+.orderNumCard{
+    margin-top: .2rem;
+    padding: .23rem .36rem;
+    background: #fff;
+    font-size: .26rem;
+    color: #666;
+}
+.orderNumCard span{
+    color: #ff0f0f;
+}
+.orderNumCard>p{
+    line-height: .5rem;
+}
+.orderNumCard>:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.orderFz{
+    color: #0090ff;
+    font-size: .22rem;
+}
+.orderSize{
+    color: #999;
+}
+.orderBtns{
+    background: #fff;
+    height: 1rem;
+    display: flex;
+    font-size: .28rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 .36rem;
+    padding-left: 0;
+    margin-top: .2rem;
+}
+.orderBtns div{
+    padding: .15rem .2rem;
+    border: 1px solid #000;
+    border-radius: .08rem;
+    font-size: .24rem;
+    margin-left: .4rem;
+}
+.orderTitles{
+    font-size: .26rem;
+    color: #111;
+}
+.orderCurBtn{
+    background: #ff5e57;
+    color: #fff;
+    border: 1px solid #ff5e57 !important;
+}
+.orderCurBtn1{
+    background: #eee;
+    color: #fff;
+    border: 1px solid #eee !important;
+}
+.orderBtnsPay{
+    background: #fff;
+    height: 1rem;
+    display: flex;
+    font-size: .28rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .36rem;
+    padding-left: 0;
+    margin-top: .2rem;
+    padding-left: .36rem;
+}
+.orderBtnsPay a{
+    color: #fff;
+}
+.orderBtnsPay>div{
+    display: flex;
+}
+.orderBtnsPay>div>div{
+    padding: .15rem .2rem;
+    border: 1px solid #000;
+    border-radius: .08rem;
+    font-size: .24rem;
+    margin-left: .4rem;
+}
+.sendWay{
+    text-align: center;
+    font-size: .3rem;
+    color: #ff0f0f;
+}
+/* 订单详情--End */
+
+/* 订单跟踪 */
+.tailTop{
+    font-size: .28rem;
+    margin-top: .88rem;
+    padding: .3rem .36rem;
+    display: flex;
+    height: 1.38rem;
+}
+.tipsWords{
+    padding: .2rem 0;
+    border-top: 1px solid #eee;
+    color: #666;
+}
+.tipsWords span{
+    color: #000;
+}
+.tailTop img{
+    width: 1.31rem;
+    height: 1.31rem;
+}
+.tailImg{
+    border: 2px solid #fff;
+    position: relative;
+}
+.tailImg>p{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: .24rem;
+    text-align: center;
+    height: .34rem;
+    line-height: .34rem;
+    background: rgba(0, 0, 0, .7)
+}
+.tailMsg{
+    display: flex;
+    flex-direction: column;
+    margin-left: .2rem;
+    justify-content: space-between;
+}
+.tailMsg>p{
+    margin-bottom: .1rem;
+}
+.tailLine{
+    background: #fff;
+    margin: 0 .36rem;
+    margin-top: .1rem;
+    margin-bottom: .36rem;
+    border-radius: .11rem;
+    font-size: .28rem;  
+    padding: .5rem .4rem;
+    color: #bbb;
+}
+.tailLineSon1{
+    display: flex;
+    justify-content: space-between;
+}
+.tailLineSon1>p{
+    text-align: center;
+    width: 1.45rem;
+    line-height: .63rem;
+}
+.tailLineSon2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: .1rem;
+}
+.tailLineSon3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1rem;
+    margin: 0 auto;
+    width: 89%;
+    margin-top: .1rem;
+}
+.tailLineSon2>div{
+    width: .14rem;
+    height: .14rem;
+    background: #bbb;
+    border-radius: 50%;
+}
+.tailLineSon2>p{
+    width: 1.2rem;
+    height: 1px;
+    background: #bbb;
+}
+.tailCur{
+    color:#fff;
+    height: .63rem;
+    line-height: .53rem !important;
+    background-image: url("../../../assets/Mine-tail-cur.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+}
+.tailBox{
+    background: #fff;
+    font-size: .28rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+.tailBoxHead{
+    height: .88rem;
+    padding: 0 .36rem;
+    border-bottom: 1px solid #f9f9f9;
+    color: #999;
+    line-height: .88rem;
+}
+.tailBoxHead1{
+    height: .88rem;
+    padding: 0 .36rem;
+    border-bottom: 1px solid #f9f9f9;
+    font-weight: bold;
+    line-height: .88rem;
+}
+.tailheight{
+    padding-bottom: .2rem;
+}
+.tailheight1{
+    padding-bottom: .2rem;
+    color: #666 !important;
+}
+.tailBoxDe>div{
+    padding: 0 .36rem;
+    display: flex;
+}
+.tailBoxDe{
+    margin-top: .4rem;
+}
+.tailDotCur{
+    width: .13rem;
+    height: .13rem;
+    border-radius: 22px;
+    background: #bbb;
+}
+.tailBoxDe>div>:nth-child(1){
+    width: .9rem;
+    margin-top: .1rem;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.tailBoxDe>div>:nth-child(2){
+    width: 87%;
+}
+.tailBoxDe>div>:nth-child(2)>p{
+   margin-bottom: .1rem; 
+}
+.tailBoxDe>div>:nth-child(2)>:nth-child(2){
+    color: #9f9f9f;
+ }
+ .tailBoxDe>:nth-child(1)>:nth-child(1)>:nth-child(1){
+    width: .2rem;
+    height: .25rem;
+    border-radius: 50%;
+    background: url('../../../assets/Mine-redbord.png');
+    background-size:100% 100%;
+}
+.tailBoxDe1>div{
+    padding: 0 .36rem;
+    display: flex;
+}
+.tailBoxDe1{
+    margin-top: .4rem;
+    padding-bottom: .2rem;
+}
+.tailBoxDe1>div>:nth-child(1){
+    width: .9rem;
+    margin-top: .1rem;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.tailBoxDe1>div>:nth-child(2){
+    width: 87%;
+}
+.tailBoxDe1>div>:nth-child(2)>p{
+   margin-bottom: .1rem; 
+}
+/* .tailBoxDe1>div>:nth-child(2)>:nth-child(2){
+    color: #9f9f9f;
+ } */
+
+.tailBoxDe1>:nth-child(1)>:nth-child(1)>:nth-child(1){
+    width: .2rem;
+    height: .25rem;
+    background: url('../../../assets/Mine-green.png');
+    background-size:100% 100%;
+}
+.tailDotRed{
+    width: .14rem;
+    height: .14rem;
+    border-radius: 50%;
+    background: #bbb;
+}
+.tailDotSaw{
+    height: 100%;
+    margin-top: 4px;
+    background: #bbb;
+    width: 1px;
+}
+/* 订单跟踪--End */

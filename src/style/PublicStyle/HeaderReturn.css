@@ -1,0 +1,344 @@
+/*
+* @Author: zxc164398048
+* @Date:   2018-03-08 11:00:22
+* @Last Modified by:   zxc164398048
+* @Last Modified time: 2018-04-03 16:16:06
+*/
+/* 一级头部*/
+
+.homePageNav{
+	font-size: 0.36rem;
+	color:green;
+}
+.header{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top: 0;
+	left:0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:transparent;
+	font-size: 0.34rem;
+	z-index: 199;
+	color: #fff;
+	font-size: .26rem;
+}
+.header1{
+	background:#ffffff;
+}
+.header2{
+
+}
+.typeface{
+	color:black;
+}
+/*--固定头部 start--*/
+/*消息图标*/
+.myPageMesIcon1{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageMesIcon1.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-left: 0.3rem;
+}
+.balanceBlack{
+	display: inline-block;
+	width: 0.17rem;
+	height: 0.34rem;
+	background-image: url("../../assets/Mine-balance-black.png");
+	background-repeat: no-repeat;
+	background-size: 0.17rem 0.33rem;
+	margin-left: 0.3rem;
+}
+.balancewrite{
+	display: inline-block;
+	width: 0.17rem;
+	height: 0.34rem;
+	background-image: url("../../assets/Mine-blance-write.png");
+	background-repeat: no-repeat;
+	background-size: 0.17rem 0.33rem;
+	margin-left: 0.3rem;
+}
+.myPageMesIcon2{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageMesIcon2.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-left: 0.3rem;
+}
+.headerSearch{
+	display: inline-block;
+	width:0.34rem;
+	height: 0.33rem;
+	background-image: url("../../assets/Search-search.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 0.3rem;
+}
+.headerReturn_right_explain{
+	display: inline-block;
+	width:0.34rem;
+	height: 0.35rem;
+	background-image: url("../../assets/Mine-explain.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*是否有消息-小圆点*/
+.myPageNoMes {
+	display: inline-block;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	float:right;
+	margin-right: 0.03rem;
+}
+.myPageHasMes {
+	display: inline-block;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: red;
+	float:right;
+	margin-right: 0.03rem;
+}
+/*设置图标*/
+.myPageSetIcon1{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageSetIcon1.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+.myPageSetIcon2{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/myPageSetIcon2.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+.question1{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/Mine-balance-quest1.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+.question{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url("../../assets/Mine-balance-quest.png");
+	background-repeat: no-repeat;
+	background-size: 0.34rem 0.34rem;
+	margin-right: 0.3rem;
+}
+.display_none{
+	visibility: hidden;
+}
+
+.classifyHeadIcon{
+	margin-right:0.5rem;
+}
+.classifyHeadCar{
+	position:relative;
+}
+.hasGoodsInCart {
+	display: inline-block;
+	width:0.38rem;
+	height: 0.24rem;
+	border-radius: 0.4rem/0.4rem;
+	background-color:#ff3636;
+	position:absolute;
+	top:-0.15rem;
+	left:-0.2rem;
+	font-size:0.22rem;
+	line-height:0.22rem;
+	color:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 2px #eeeeee;
+}
+/*--固定头部 end--*/
+
+
+
+/* 二级头部 带返回键 */
+.headerReturn_box{
+	width: 100%;
+	height:0.88rem;
+	background: #f9f9f9;
+	position: fixed;
+	left:0rem;
+	top:0rem;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: top 1s;
+}
+.headerReturn_box_C{
+	width: 100%;
+	height:0.88rem;
+	background: #f9f9f9;
+	position: fixed;
+	left:0rem;
+	top:-1rem;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: top 1s;
+}
+.headerReturn_text{
+	text-align: center;
+	font-size: 0.28rem;
+	color: #111111;
+	line-height: 0.31rem;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.headerReturn_back{
+	display: inline-block;
+	width: 0.15rem;
+	height: 0.31rem;
+	background:url('../../assets/Mine-balance-black.png') no-repeat top left;
+	background-size:100% 100%;
+	margin-left: 0.36rem;
+}
+.headerReturn_rightbox{
+	display: flex;
+	justify-content: center;
+	align-items: right;
+	margin-right: 0.36rem;
+}
+.headerReturn_rightbox>div{
+	display: flex;
+	justify-content: space-between;
+}
+/* 保存/全部 */
+.headerReturn_right_bc{
+	font-size: 0.24rem;
+	color: #ff0f0f;
+}
+.headerReturn_right_bc1{
+	font-size: 0.24rem;
+	color: #005719;
+}
+.headerReturn_back1{
+	visibility: hidden;
+}
+
+/* 搜索按钮 */
+.headerReturn_right_search{
+	display: inline-block;
+	width: 0.33rem;
+	height: 0.32rem;
+	background-image: url('../../assets/headerReturnSearch.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.headerReturn_right_search2{
+	display: inline-block;
+	width: 0.33rem;
+	height: 0.32rem;
+	background-image: url('../../assets/headerReturn_right_search2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*分享图标*/
+.headerReturn_right_share{
+	display: inline-block;
+	width: 0.39rem;
+	height: 0.33rem;
+	background-image: url('../../assets/header-share.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-right: 0.66rem;
+}
+.headerReturn_right_share2{
+	display: inline-block;
+	width: 0.39rem;
+	height: 0.33rem;
+	background-image: url('../../assets/header-share.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.headerReturn_right_service{
+	display: inline-block;
+	width: 0.38rem;
+	height: 0.38rem;
+	background-image: url('../../assets/Mine-service.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*导航收藏图标*/
+/*未收藏*/
+.headerReturn_right_love{
+	display: inline-block;
+	width: 0.39rem;
+	height: 0.33rem;
+	background-image: url('../../assets/header-love.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*已收藏*/
+.headerReturn_right_love2{
+	display: none;
+	width: 0.39rem;
+	height: 0.33rem;
+	background-image: url('../../assets/header-love2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.headerReturn_right_car{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url('../../assets/classifyPage_cart.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.headerReturn_right_car2{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-image: url('../../assets/classifyPage_cart2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/* 透明头部 */
+.headerReturnBG{
+	background: transparent !important;
+	/* position: relative !important; */
+}
+.shoppingCart{
+	font-size: 0.24rem;
+	color: #ff0f0f;
+}
+.oldRat>a{
+	margin-right: .15rem;
+}
+.historyOrder{
+	font-size: 0.24rem;
+	color: #999;
+}
+/* 滚动头部 */
+.moveHeader{
+	top: -.88rem !important;
+}
