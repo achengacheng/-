@@ -22,7 +22,7 @@
     "react-swiper": "^0.1.5",
     "request": "^2.86.0",
     "search": "^1.0.0",
-    "swiper": "^4.3.0",
+    "swiper": "^6.5.1",
     "weixin-js-sdk": "^1.3.2"
   },
   "devDependencies": {
